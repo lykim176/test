@@ -7,7 +7,7 @@ pipeline {
             }
             when {
                 beforeAgent true
-                branch 'develop'
+                branch 'master'
             }
             steps {
                 echo 'BUILDING...'
