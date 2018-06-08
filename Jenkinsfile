@@ -6,7 +6,6 @@ pipeline {
                 label "stage_api"
             }
             when {
-                beforeAgent true
                 branch 'master'
             }
             steps {
